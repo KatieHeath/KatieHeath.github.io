@@ -1,0 +1,63 @@
+.general {
+    font-family: Arial;
+}
+html {
+background: #39b1cc;
+  background: -moz-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #51bbd2), color-stop(100%, #2d97af));
+  background: -webkit-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: -o-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: -ms-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: linear-gradient(to bottom, #51bbd2 0%, #2d97af 100%);
+}
+.imgplace {
+    margin-left:-22%;
+   margin-top:-6%; 
+}
+.imgplace2 {
+    margin-left:100%;
+    margin-top:-14%;
+}
+h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+.h2change {
+    font-size:2em;
+    margin-top: -5px;
+}
+
+.general { font-family:Arial; 
+ background-color:white;
+    width:70%;
+    margin-left:15%;
+}
+.navcenter {
+   margin-left:38%;
+   padding-top:30px;
+}
+    
+.rowcenter {
+    margin-left:17%;
+    text-align:center;
+}
+    
+.pbuffer {
+    padding-bottom: 15px;
+}
+
+.piccenter {
+    margin-left: -20%;
+}
+
+.placeholder {
+    padding-bottom: 521px;
+}
+
+.placeholder2 {
+    padding-bottom: 110px;
+}
+
+.placeholder3 {
+    padding-bottom:451px;
+}
