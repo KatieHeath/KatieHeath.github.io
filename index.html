@@ -1,44 +1,61 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="custom2.css">
     <link rel="stylesheet" href="cssmenu/styles.css">
-<style>
-    .center {
-        text-align:center;
-    }
-    .top-buffer{
-        margin-top:200px;
-    }
-</style>
+    <link rel="stylesheet" href="custom.css">
+    <style>
+        a:visited {color: rgb(130,130,130)}
+    </style>
 </head>
-    
+
 <body class="general placeholder">
-     <nav>
+     <aside>
+       <div class="wreckttop navmove navmove2"> 
       <div id='cssmenu'>
-<ul>
-   <li class='active'><a href='#'><span>Home</span></a></li>
-   <li><a href='website%20mark%20II_4.html'><span>About</span></a></li>
-   <li><a href='KHResume.pdf' download="KHResume"><span>Résumé</span></a></li>
-   <li class='last'><a href='website%20mark%20II_5.html'><span>Contact</span></a></li>
-</ul>
-</div>
-    </nav>
-    <img class="imgplace" src="Logo%20Thing.png" width="210"></img>
-    <img class="imgplace2" src="Logo%20Thing%202.png" width="210"></img>
+          <ul>
+            <li><a data-scroll href="index.html#one"><span>Home</span></a></li>
+            <li><a data-scroll href="index.html#two"><span>About</span></a></li>
+            <li><a data-scroll href="index.html#three"><span>Awards</span></a></li>
+            <li class='last'><a href="mailto:katherineheath@newfieldschools.org" target=_top><span>Contact</span></a></li>
+          </ul>
+      </div>
+    </aside>
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <section id=one><br></section>
+                <h1 class="heading heading2">Katherine (Katie) Heath</h1>
+                <h2>Newfield Senior High School Class of 2017</h2>
+        </div>
+    </div>
     <br>
-     <div class="row rowcenter">
-            <div class="col-md-3 col-xs-3"><p>This is a test.</p></div>
-            <div class="col-md-3 col-xs-3"><p>Do things work?</p></div>
-            <div class="col-md-3 col-xs-3"><p>Hopefully.</p></div>
-</div>
-<!-- javascript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="cssmenu/script.js"></script>
+    <br>
+    <section id=two><br></section>
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <div class="wreckt" style="width:100%;border:1px solid #3d5266; text-align:center"><p class="pbuffer">Katie Heath is a rising high school junior, who aims to earn an associate's degree by the end of her senior year. She is currently taking multiple college-level courses, and advanced math and science, while still remaining the top student of her class. She is an active participant in Drama Club, Travel Club, and Art Club alongside her studies, and is currently in an entrepreneurship program hosted by Life Changing Labs.</p>
+                <a class="linkcolor" href="KHResume.pdf" target="_blank">Download Résumé as PDF</a></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+                <div class="wreckt3 wreckt4" style="width:100%;border:1px solid #3d5266; text-align:center">
+                    <ul class="linkcolor listchange">
+                        <li>• Highest averages in Trigonometry, English, Health, Spanish, Global History; second highest average in Chemistry</li>
+                        <li>• Newfield Fire Company Math Award</li>
+                        <li>• Leon Krause Memorial Award</li>
+                    </ul>
+                     <section id=three><br></section>
+                </div>
+        </div>
+    </div>
+<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+         <script>
+             smoothScroll.init();
+         </script>
+</footer>
 </body>
 </html>
