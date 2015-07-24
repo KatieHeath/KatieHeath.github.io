@@ -20,7 +20,7 @@ h2 {
     font-weight: 300;
     text-align:center;
     font-size:1.5em;
-    margin-top:-3%;
+    margin-top:-40px;
 }
 
 p {
@@ -46,7 +46,7 @@ p {
 .wreckt3 {
     margin-top:40%;
     background-color:rgb(64, 64, 64);
-    max-height: 100px;
+    max-height: 150px;
     height:auto;
     margin-bottom:25%;
 }
@@ -99,4 +99,5 @@ p {
 
 .listchange {
     list-style-type: none;
+    text-align: center;
 }
